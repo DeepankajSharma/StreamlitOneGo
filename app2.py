@@ -6,7 +6,7 @@ with st.form("BMI calculator"):
 with col1:
     weight=st.number_input("enter your weight in KGs", min_value=0)
 with col2:
-    height=st.number_input("Enter your age in Height in meters", min_value=0)
+    height=st.number_input("Enter your Height in meters", min_value=0)
 with col3:
     submit=st.form_submit_button("calculate")
 
